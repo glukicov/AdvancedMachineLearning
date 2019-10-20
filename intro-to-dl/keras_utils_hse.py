@@ -3,10 +3,12 @@
 from collections import defaultdict
 import numpy as np
 from keras.models import save_model
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
+import tensorflow as tf # v2 
+import tensorflow.compat.v1 as tf # v1 
+tf.disable_v2_behavior() # v1 
 import keras
-from keras import backend as K
+# from keras import backend as K  # v2 
+import tensorflow.python.keras.backend as K # v1 
 import tqdm_utils
 
 

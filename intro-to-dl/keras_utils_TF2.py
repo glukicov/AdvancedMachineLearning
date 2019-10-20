@@ -3,9 +3,9 @@
 from collections import defaultdict
 import numpy as np
 from keras.models import save_model
-# import tensorflow as tf
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
+import tensorflow as tf
+# import tensorflow.compat.v1 as tf
+# tf.disable_v2_behavior()
 import keras
 from keras import backend as K
 import tqdm_utils
